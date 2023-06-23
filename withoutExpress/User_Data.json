@@ -1,0 +1,14 @@
+{
+  "Credentials": [
+    {
+      "Name": "Shiny",
+      "Age": 22,
+      "City": "Coimbatore"
+    },
+    {
+      "Name": "Dhiksha",
+      "Age": 21,
+      "City": "Tirupur"
+    }
+  ]
+}
