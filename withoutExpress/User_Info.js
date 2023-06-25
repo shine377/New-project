@@ -1,4 +1,4 @@
-const data = require("./User_Data.json")
+const data = require("./User_Data.json");
 const http = require("http");
 
 const port = process.env.PORT || 3000;
@@ -12,9 +12,9 @@ http
       res.write("This is the project without express");
       res.end();
     } else if (url === "/Data") {
-      const jsonData = {data};
+      const jsonData = { data };
 
-      res.writeHead(200, { "type": "json" });
+      res.writeHead(200, { type: "json" });
       res.write(JSON.stringify(jsonData));
       res.end();
     } else {
