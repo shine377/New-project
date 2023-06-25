@@ -9,12 +9,7 @@ const port = process.env.PORT || 5000;
 app.use(express.json());
 
 
-myDataSource
-  .initialize()
-  .then(async () => {
-    console.log("AppDataSource.initialize()...");
-  })
-  .catch((error: any) => console.log(error));
+myDataSource.initialize()
 
 
 app.get("/home", async (req:any, res:any) => {
