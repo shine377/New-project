@@ -1,13 +1,12 @@
 const data = require("./User_Data.json");
 const http = require("http");
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 4000;
 
 http
   .createServer((req, res) => {
     res.writeHead(200, { type: "text/html" });
     const url = req.url;
-
     if (url === "/Section1") {
       res.write("This is the project without express");
       res.end();

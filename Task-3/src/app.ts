@@ -4,12 +4,16 @@ import { User } from "./User";
 const express = require("express");
 const app = express();
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3000;
 
 app.use(express.json());
 
 
 myDataSource.initialize()
+
+app.get('/',(req,res)=>{
+  res.send('hlo')
+})
 
 
 app.get("/home", async (req:any, res:any) => {
