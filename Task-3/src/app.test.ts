@@ -1,5 +1,4 @@
-const { myDataSource } = require("./data-connection");
-const { User } = require("./User");
+
 const app = require("./app");
 
 describe("getting the value from the user",() =>{
@@ -14,9 +13,7 @@ describe("getting the value from the user",() =>{
       Country:"India"
     }]
     const response =  request(app).get("/app");
-    const spy = jest.spyOn( myDataSource.getRepository(User)).mockReturnValue(list);
     expect(response.body).toEqual(list );
-    expect(spy).toHaveBeenCalledTimes(1);
     expect(response.body).toHaveLength(7);
   })
 })

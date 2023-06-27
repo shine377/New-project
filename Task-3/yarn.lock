@@ -1314,7 +1314,7 @@ diff@^4.0.1:
   resolved "https://registry.yarnpkg.com/diff/-/diff-4.0.2.tgz#60f3aecb89d5fae520c11aa19efc2bb982aade7d"
   integrity sha512-58lmxKSA4BNyLz+HHMUzlOEpg09FV+ev6ZMe3vJihgdxzgcwZ8VoEEPmALCZG9LmqfVoNMMKpttIYTVG6uDY7A==
 
-dotenv@^16.0.3, dotenv@^16.3.1:
+dotenv@^16.0.3:
   version "16.3.1"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.3.1.tgz#369034de7d7e5b120972693352a3bf112172cc3e"
   integrity sha512-IPzF4w4/Rd94bA9imS68tZBaYyBWSCE47V1RGuMrB94iyTOIEwRmVL2x/4An+6mETpLrKJ5hQkB8W4kFAadeIQ==
@@ -2840,11 +2840,6 @@ superagent@^8.0.5:
     mime "2.6.0"
     qs "^6.11.0"
     semver "^7.3.8"
-
-superset@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/superset/-/superset-2.0.1.tgz#5a03af60e3d5fd7c4b75c7fca81425322f8ba59e"
-  integrity sha512-QYY2NvizVPRS9IXmgyEptW+61iwZR7r6TkpIUkAilQbRvVwv/FzHTGj89lFA7HmQ9trWnY+/GRowUsFpU9/4YQ==
 
 supertest@^6.3.3:
   version "6.3.3"
