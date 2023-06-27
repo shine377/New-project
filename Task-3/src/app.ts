@@ -1,3 +1,4 @@
+import bodyParser = require("body-parser");
 import { myDataSource } from "./data-connection";
 import { User } from "./User";
 
@@ -6,7 +7,8 @@ const app = express();
 
 const port = process.env.PORT || 3000;
 
-app.use(express.json());
+app.use(bodyParser.urlencoded({ extended: false }))
+app.use(bodyParser.json())
 
 
 myDataSource.initialize()
