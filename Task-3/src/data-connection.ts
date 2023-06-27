@@ -11,7 +11,5 @@ import { User } from "./User"
     database: "Project",
     logging: false,
     synchronize: true,
-    entities: [User],
-    migrations: [],
-    subscribers: [],
+    entities: [User]
 })
